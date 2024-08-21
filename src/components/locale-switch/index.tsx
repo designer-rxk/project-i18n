@@ -1,6 +1,6 @@
 'use client';
 
-import { useLocaleSwitch } from "@lib/hooks";
+import { useLocaleSwitch } from "@hooks";
 
 export const LocaleSwitch = () => {
     const handleLocaleSwitch = useLocaleSwitch();

@@ -19,8 +19,9 @@
       }
     ],
     "paths": {
-      "@i18n": ["./src/i18n.ts"],
       "@lib/*": ["./src/lib/*"],
+      "@i18n": ["src/lib/i18n/i18n.ts"],
+      "@hooks": ["./src/hooks/index.ts"],
       "@components": ["./src/components/index.ts"],
     },
   },
