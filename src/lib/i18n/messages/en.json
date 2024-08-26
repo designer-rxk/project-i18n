@@ -1,4 +1,7 @@
 {
+  "notFound": {
+    "title": "Page not found"
+  },
   "home": {
     "link": "Go to 'About us' page"
   },

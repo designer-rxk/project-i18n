@@ -1,4 +1,7 @@
 {
+  "notFound": {
+    "title": "Siden ble ikke funnet"
+  },
   "home": {
     "link": "Gå til 'Om oss'-siden"
   },

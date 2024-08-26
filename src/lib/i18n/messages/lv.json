@@ -1,4 +1,7 @@
 {
+  "notFound": {
+    "title": "Neizdevās atrast lapu"
+  },
   "home": {
     "link": "Doties uz 'Par mums' lapu"
   },
