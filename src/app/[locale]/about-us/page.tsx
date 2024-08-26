@@ -2,7 +2,7 @@ import { LocaleSwitch } from '@components';
 import { NextLink } from '@lib/i18n';
 import { useTranslations } from 'next-intl';
  
-export default function AboutUsPage() {
+export default function Page() {
   const t = useTranslations('aboutUs');
 
   return (

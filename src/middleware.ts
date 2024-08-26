@@ -1,10 +1,11 @@
-import { defaultLocale, locales } from "@lib/i18n";
+import { defaultLocale, locales, pathnames } from "@lib/i18n";
 import createMiddleware from "next-intl/middleware";
 
 export default createMiddleware({
   localePrefix: "always",
   localeDetection: false,
   defaultLocale,
+  pathnames,
   locales,
 });
 
