@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getRequestConfig } from "next-intl/server";
-import type { Locale } from "@lib/types";
+import type { Locale } from "@types";
 
 export const locales: Locale[] = ["en", "lv", "no"];
 export const defaultLocale = locales[0];

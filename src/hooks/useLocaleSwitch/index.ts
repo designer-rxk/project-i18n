@@ -1,4 +1,4 @@
-import type { Locale } from "@lib/types";
+import type { Locale } from "@types";
 import { useLocale } from "next-intl";
 import { startTransition } from "react";
 import { usePathname, useRouter } from "@lib/i18n";

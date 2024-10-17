@@ -1,4 +1,4 @@
-import { Pathnames } from "@lib/types";
+import { Pathnames } from "@types";
 
 export const pathnames = {
   "/": {
