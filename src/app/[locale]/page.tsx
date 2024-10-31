@@ -1,5 +1,5 @@
 import { LocaleSwitch } from '@components';
-import { NextLink } from '@lib/i18n';
+import { LocalizedLink } from '@lib/i18n';
 import { useTranslations } from 'next-intl';
  
 export default function Page() {
@@ -7,7 +7,7 @@ export default function Page() {
 
   return (
     <div className='w-full flex flex-col gap-10 items-center py-10'>
-      <NextLink href='/about-us'>{t('link')}</NextLink>
+      <LocalizedLink href='/about-us'>{t('link')}</LocalizedLink>
       <LocaleSwitch />
     </div>
   );
